@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Garage Door Repair & Installation Near Dallas - 24/7 Fast & Reliable Service">
+    <title>GSG Garage Door</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>GSG Garage Door</h1>
+        </div>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#coupons">Coupons</a>
+            <a href="#gallery">Before & After</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Free Estimate</a>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h2>Garage Door Repair & Installation Near Dallas - 24/7 Fast & Reliable Service</h2>
+        <p>Your Garage Door. Our Responsibility. Fast, Professional, Guaranteed.</p>
+        <a href="#contact" class="cta-button">Schedule Service / Free Estimate</a>
+    </section>
+    
+    <section id="services">
+        <h3>Our Services</h3>
+        <ul>
+            <li>New Garage Door Installation</li>
+            <li>Garage Door Repair (Springs, Openers, Rollers, Panels)</li>
+            <li>Emergency 24/7 Service</li>
+            <li>Commercial & Residential</li>
+            <li>Routine Maintenance</li>
+        </ul>
+    </section>
+    
+    <section id="coupons">
+        <h3>Special Online Offers</h3>
+        <ul>
+            <li>$50 OFF Any Garage Door Repair (over $300)</li>
+            <li>10% OFF New Garage Door Installation</li>
+            <li>15% OFF Complete Garage Door Replacement</li>
+            <li>Free Service Call With Any Paid Repair</li>
+        </ul>
+    </section>
+    
+    <section id="gallery">
+        <h3>Before & After Gallery</h3>
+        <div class="gallery">
+            <div class="before"><img src="images/before1.jpg" alt="Before Image"></div>
+            <div class="after"><img src="images/after1.jpg" alt="After Image"></div>
+            <div class="before"><img src="images/before2.jpg" alt="Before Image"></div>
+            <div class="after"><img src="images/after2.jpg" alt="After Image"></div>
+        </div>
+        <p>See the difference professional service makes!</p>
+    </section>
+    
+    <section id="reviews">
+        <h3>Customer Reviews</h3>
+        <div class="review">⭐⭐⭐⭐⭐ Michael T. – Plano, TX: "Fast service, very professional, highly recommend!"</div>
+        <div class="review">⭐⭐⭐⭐⭐ Susan R. – Frisco, TX: "Installed new door, clean work, great pricing!"</div>
+        <div class="review">⭐⭐⭐⭐⭐ Daniel S. – Dallas, TX: "High-end opener installed perfectly. Highly recommend!"</div>
+        <div class="review">⭐⭐⭐⭐⭐ Jennifer L. – Fort Worth, TX: "Competitive quote, perfect roller replacement."</div>
+        <div class="review">⭐⭐⭐⭐⭐ Robert K. – Rowlett, TX: "Same day service, quality parts, professional team."</div>
+    </section>
+    
+    <section id="contact">
+        <h3>Schedule Service / Free Estimate</h3>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <textarea name="message" placeholder="Tell us about your service request" required></textarea>
+            <button type="submit">Submit Request</button>
+        </form>
+        <p>Or call us directly: <a href="tel:7028613769">(702) 861-3769</a></p>
+        <p>Email: <a href="mailto:gsggaragedoor@gmail.com">gsggaragedoor@gmail.com</a></p>
+    </section>
+    
+    <footer>
+        <p>© 2025 GSG Garage Door. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
