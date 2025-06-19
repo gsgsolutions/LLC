@@ -2,174 +2,173 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>GSG Solutions LLC | Garage & Construction Experts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GSG Garage Door | Repair & Installation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    /* Reset בסיסי */
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f4f4f4;
+      font-family: 'Rubik', sans-serif;
+      margin: 0;
+      background: #f9f9f9;
       color: #333;
-      line-height: 1.6;
     }
     header {
-      background-color: #00539C;
-      color: white;
-      padding: 20px 0;
+      background: #000;
+      color: #fff;
+      padding: 30px 20px;
       text-align: center;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
-    header h1 {
-      margin-bottom: 8px;
+    header img {
+      max-width: 200px;
+      margin-bottom: 15px;
+    }
+    h1 {
+      margin: 0;
       font-size: 2rem;
     }
-    header p {
+    .tagline {
       font-size: 1.2rem;
       font-style: italic;
-      opacity: 0.9;
+      color: #ccc;
     }
-    nav {
-      background-color: #03396C;
-      display: flex;
-      justify-content: center;
-      padding: 10px 0;
-    }
-    nav a {
+    .cta {
+      text-align: center;
+      background: #c8102e;
       color: white;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: 600;
-      transition: color 0.3s ease;
-    }
-    nav a:hover {
-      color: #FFC107;
-    }
-    main {
-      max-width: 900px;
-      margin: 30px auto;
-      padding: 0 20px;
-    }
-    section {
-      margin-bottom: 40px;
-      background: white;
-      padding: 25px 30px;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    }
-    section h2 {
-      margin-bottom: 15px;
-      color: #00539C;
-    }
-    .services ul {
-      list-style: disc inside;
-      margin-top: 10px;
-    }
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
-    form label {
-      font-weight: 600;
-      margin-bottom: 5px;
-    }
-    form input, form textarea {
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 1rem;
-      resize: vertical;
-    }
-    form button {
-      background-color: #00539C;
-      color: white;
-      border: none;
-      padding: 12px;
-      font-size: 1.1rem;
+      padding: 20px;
+      font-size: 1.5rem;
       font-weight: bold;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
     }
-    form button:hover {
-      background-color: #03396C;
+    .cta a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      color: #c8102e;
+      margin-bottom: 20px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .gallery img {
+      width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .contact {
+      background: #f1f1f1;
+      padding: 20px;
+      border-radius: 8px;
     }
     footer {
-      text-align: center;
-      padding: 15px 0;
-      background-color: #022F40;
+      background: #222;
       color: white;
-      font-size: 0.9rem;
+      text-align: center;
+      padding: 20px;
       margin-top: 40px;
     }
-    /* Responsive */
-    @media(max-width: 600px) {
-      nav {
-        flex-direction: column;
-      }
-      nav a {
-        margin: 8px 0;
-      }
+    ul {
+      column-count: 2;
+      padding-left: 20px;
+    }
+    .review {
+      margin-bottom: 20px;
+    }
+    form {
+      margin-bottom: 30px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 12px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    button {
+      padding: 12px 20px;
+      background: #c8102e;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>GSG Solutions LLC</h1>
-    <p>Your Trusted Garage & Construction Experts</p>
-  </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<header>
+  <img src="logo.png" alt="GSG Garage Door Logo" />
+  <h1>GSG GARAGE DOOR</h1>
+  <div class="tagline">Fast. Reliable. Local Garage Door Experts.</div>
+</header>
 
-  <main>
-    <section id="about">
-      <h2>About Us</h2>
-      <p>GSG Solutions LLC specializes in professional garage door services and construction solutions. With years of experience, we guarantee quality, reliability, and customer satisfaction in every project.</p>
-    </section>
+<div class="cta">
+  📞 Call Us Now: <a href="tel:+19453711283">945-371-1283</a> | 📧 <a href="mailto:GSGGARAGEDOOR@gmail.com">GSGGARAGEDOOR@gmail.com</a>
+</div>
 
-    <section id="services" class="services">
-      <h2>Our Services</h2>
-      <ul>
-        <li>Garage Door Installation & Repair</li>
-        <li>Garage Door Springs & Rollers Replacement</li>
-        <li>Custom Garage Doors & Openers</li>
-        <li>Residential & Commercial Construction</li>
-        <li>Home Renovations & Repairs</li>
-      </ul>
-    </section>
+<section class="section">
+  <h2>Before & After Repairs</h2>
+  <div class="gallery">
+    <img src="roller-before-after.jpg" alt="Garage Roller Before and After" />
+  </div>
+</section>
 
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <form action="mailto:1gsgsolutionsllc@gmail.com" method="POST" enctype="text/plain">
-        <label for="name">Full Name</label>
-        <input type="text" id="name" name="Name" placeholder="Your full name" required />
+<section class="section">
+  <h2>Customer Reviews</h2>
+  <div class="review">⭐️⭐️⭐️⭐️⭐️ "Garage door stuck before a big storm — GSG came within 30 minutes! Honest and fast." — Michael T., Plano</div>
+  <div class="review">⭐️⭐️⭐️⭐️⭐️ "Replaced our noisy rollers and now it runs smooth. Super professional." — Jennifer L., Garland</div>
+  <div class="review">⭐️⭐️⭐️⭐️⭐️ "We run a small warehouse and GSG fixed our industrial garage door in one visit. Highly recommended!" — Carlos M., Irving</div>
+</section>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="Email" placeholder="your.email@example.com" required />
+<section class="section">
+  <h2>Service Areas – 50 Mile Radius from Dallas, TX</h2>
+  <ul>
+    <li>Dallas</li><li>Fort Worth</li><li>Plano</li><li>Garland</li><li>Irving</li><li>Arlington</li>
+    <li>Grand Prairie</li><li>Mesquite</li><li>Carrollton</li><li>Richardson</li><li>Denton</li>
+    <li>Lewisville</li><li>Allen</li><li>Frisco</li><li>Rowlett</li><li>Rockwall</li>
+    <li>The Colony</li><li>Flower Mound</li><li>North Richland Hills</li><li>Grapevine</li><li>McKinney</li>
+    <li>Euless</li><li>Hurst</li><li>DeSoto</li><li>Cedar Hill</li><li>Keller</li><li>Mansfield</li>
+    <li>Duncanville</li><li>Wylie</li><li>Burleson</li><li>Lancaster</li><li>Farmers Branch</li>
+    <li>Southlake</li><li>Waxahachie</li><li>Bedford</li><li>Ennis</li><li>Highland Park</li>
+  </ul>
+</section>
 
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="Phone" placeholder="702-861-3769" required pattern="[0-9\-]+" />
+<section class="section contact">
+  <h2>Leave Your Details</h2>
+  <p>Fill in your information and we’ll get back to you shortly.</p>
+  <form action="mailto:GSGGARAGEDOOR@gmail.com" method="POST" enctype="text/plain">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="Name" required />
 
-        <label for="message">Message</label>
-        <textarea id="message" name="Message" rows="5" placeholder="Write your message here..." required></textarea>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="Email" required />
 
-        <button type="submit">Send Message</button>
-      </form>
-      <p style="margin-top:15px;">Or call us directly at <a href="tel:+17028613769">702-861-3769</a></p>
-    </section>
-  </main>
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="Phone" required />
 
-  <footer>
-    &copy; 2025 GSG Solutions LLC. All rights reserved.
-  </footer>
+    <label for="message">Your Message</label>
+    <textarea id="message" name="Message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <p>Or call us directly at <strong><a href="tel:+19453711283">945-371-1283</a></strong></p>
+</section>
+
+<footer>
+  &copy; 2025 GSG Garage Door. All Rights Reserved.
+</footer>
+
 </body>
 </html>
